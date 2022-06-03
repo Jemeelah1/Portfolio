@@ -1,4 +1,3 @@
-import { Fade, Zoom } from "react-reveal";
 import "./App.css";
 import About from "./components/About";
 import Experience from "./components/Experience";
