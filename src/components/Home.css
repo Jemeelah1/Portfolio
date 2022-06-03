@@ -1,0 +1,11 @@
+#kj-img {
+  width: 100%;
+}
+#navbar-bg {
+  background-color: #eaeaeac9;
+  backdrop-filter: blur(2px);
+  font-family: Poppins;
+}
+#row-text {
+  font-family: Poppins;
+}
