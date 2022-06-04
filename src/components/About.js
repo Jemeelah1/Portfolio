@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <div
-        className="bg-img p-5 align-items-center justify-content-md-center"
+        className="bg-img py-5 px-3 align-items-center justify-content-md-center"
         id="about"
         // style={{ height: "100vh" }}
       >
@@ -15,10 +15,10 @@ function About() {
             about
           </h3>
           <p className="text-center p-md-5 mt-5 fs-4 lead">
-            My name is Kolawole Ayoola and I am a Computer Science graduate.
-            There are a lot of things I'm interested in, but I'll talk about
-            what I've been focusing on. That brings us to UI/UX and frontend web
-            development.
+            My name is Kolawole Ayoola a Computer Science graduate from Crawford
+            University, Nigeria. There are a lot of things I'm interested in,
+            but I'll talk about what I've been focusing on. That brings us to
+            UI/UX and frontend web development.
             <br />
             <br />
             I have experience building beautiful user experiences and

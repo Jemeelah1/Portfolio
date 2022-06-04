@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Accordion, Card, Col, Container, Row } from "react-bootstrap";
 import "./Experience.css";
 import bs from "../img/bs.png";
 import andela from "../img/andela.png";
@@ -33,7 +33,7 @@ function Experience() {
           </Row>
 
           {/* Cards */}
-          <Row xs="1" lg="3" id="card-row" className="g-4">
+          <Row xs="1" lg="3" id="card-row" className="g-4 d-none d-md-flex">
             <Col>
               <Card
                 className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0 "
@@ -96,7 +96,7 @@ function Experience() {
             </Col>
             <Col>
               <Card
-                className="text-center align-items-center py-3 py-lg-5. px-5 px-lg-0"
+                className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0"
                 style={{
                   height: "100%",
                   background: "#ffffffa1",
@@ -126,6 +126,68 @@ function Experience() {
               </Card>
             </Col>
           </Row>
+          <Accordion
+            defaultActiveKey="0"
+            className="d-md-none"
+            style={{ fontFamily: "Poppins" }}
+          >
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>BlueSense</Accordion.Header>
+              <Accordion.Body className="py-4">
+                <span className="fw-bold">
+                  Web Develoment intern & Business Development intern.
+                  <br /> June 2021 - May 2022
+                </span>
+                <br />
+                <br />
+                Worked with the research team to produced detailed market and
+                user research for a fintech startup - hashapp.
+                <br />
+                <br />
+                Designed compelling user experience for the company site and
+                partner sites, developed it using ReactJs, node, css.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>Andela</Accordion.Header>
+              <Accordion.Body className="py-4">
+                <span className="fw-bold">
+                  Program Assistant.
+                  <br /> September 2020 - September 2021
+                </span>
+                <br />
+                <br />
+                Coordinate a learning community of 3.5k developers who possessed
+                varying skill levels and competencies.
+                <br />
+                <br />
+                Coordinating and supporting learners towards the submission of
+                50+ technical projects.
+                <br />
+                <br />
+                Managing over 4 Azure certification prep sessions & Facilitating
+                the mentor's support structure.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="3">
+              <Accordion.Header>Trivest Technologies</Accordion.Header>
+              <Accordion.Body className="py-4">
+                <span className="fw-bold">
+                  Network Technician
+                  <br /> July 2019 - December 2019
+                </span>
+                <br />
+                <br />
+                Installation & configuration of wireless network devices, and
+                also carrying out periodic maintenance on them.
+                <br />
+                <br />
+                Editing 2D blueprint of various company structures using AutoCAD
+                to plan the best and shortest path routes engineers can use to
+                run wires and install control centers.
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </Container>
       </div>
     </>
