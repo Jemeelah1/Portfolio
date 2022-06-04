@@ -14,7 +14,7 @@ function About() {
           <h3 className="mt-3" id="about-h3">
             about
           </h3>
-          <p className="text-center p-md-5 mt-5 fs-4 lead">
+          <p className="text-center p-md-5 mt-5 fs-4 fw-light">
             My name is Kolawole Ayoola a Computer Science graduate from Crawford
             University, Nigeria. There are a lot of things I'm interested in,
             but I'll talk about what I've been focusing on. That brings us to
