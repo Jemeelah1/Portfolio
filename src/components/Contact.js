@@ -10,13 +10,10 @@ import {
 } from "react-bootstrap";
 import {
   Behance,
-  EmojiNeutral,
   Envelope,
   Github,
   Instagram,
   Linkedin,
-  Mailbox2,
-  Messenger,
   Twitter,
   Whatsapp,
 } from "react-bootstrap-icons";
@@ -71,6 +68,7 @@ function Contact({ name, ...props }) {
                       <a
                         href="https://www.linkedin.com/in/kolawole-ayoola-264118186/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Connect with me
                       </a>
@@ -82,6 +80,7 @@ function Contact({ name, ...props }) {
                       <a
                         href="https://www.behance.net/kolawolejosh"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Follow me
                       </a>
@@ -89,19 +88,51 @@ function Contact({ name, ...props }) {
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Github className="fs-4" />
-                    <span><a href="https://github.com/Kolajosh" target="_blank">Follow me</a></span>
+                    <span>
+                      <a
+                        href="https://github.com/Kolajosh"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Follow me
+                      </a>
+                    </span>
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Instagram className="fs-4" />
-                    <span><a href="https://www.instagram.com/josh_kolawole/?hl=en" target="_blank">Follow me</a></span>
+                    <span>
+                      <a
+                        href="https://www.instagram.com/josh_kolawole/?hl=en"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Follow me
+                      </a>
+                    </span>
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Twitter className="fs-4" />
-                    <span><a href="https://twitter.com/josh_kolawole" target="_blank">Follow me</a></span>
+                    <span>
+                      <a
+                        href="https://twitter.com/josh_kolawole"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Follow me
+                      </a>
+                    </span>
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Whatsapp className="fs-4" />
-                    <span><a href='https://wa.me/2349076009850' target='_blank'>Message me</a></span>
+                    <span>
+                      <a
+                        href="https://wa.me/2349076009850"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Message me
+                      </a>
+                    </span>
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Envelope className="fs-4" />
