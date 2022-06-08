@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 
 function Footer() {
   return (
     <>
-      <div className="py-3"  style={{backgroundColor:"#eaeaeac9"}} >
+      <div className="py-3"  style={{backgroundColor:"#eaeaea8f", fontFamily: "Poppins"}} >
         <Container>
-          <Nav className="justify-content-center">
+          <Nav className="justify-content-center pt-3">
             <Nav.Link
               className="mx-1 mx-md-4"
               href="#about"
@@ -36,7 +36,7 @@ function Footer() {
               contact
             </Nav.Link>
           </Nav>
-          <p className="text-center py-3">Built by Kolawole Ayoola</p>
+          <p className="text-center pt-3">Built by Kolawole Ayoola</p>
         </Container>
       </div>
     </>
