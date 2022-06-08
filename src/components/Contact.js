@@ -39,7 +39,7 @@ function Contact({ name, ...props }) {
           </h3>
           <div className="py-5 text-center" style={{ fontFamily: "Poppins" }}>
             <h4 id="portfolio-h4">lets get in touch</h4>
-            <p className="py-3 ">
+            <p className="py-3 fw-light">
               Have any questions or feedback and want to reach out to me, click
               on the button below
               <br /> and message me on any of the social media platforms you

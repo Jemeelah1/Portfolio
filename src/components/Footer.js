@@ -4,7 +4,7 @@ import { Container, Nav } from "react-bootstrap";
 function Footer() {
   return (
     <>
-      <div className="py-3"  style={{backgroundColor:"#eaeaea8f", fontFamily: "Poppins"}} >
+      <div className="py-3 fw-light"  style={{backgroundColor:"#eaeaea8f", fontFamily: "Poppins"}} >
         <Container>
           <Nav className="justify-content-center pt-3">
             <Nav.Link
