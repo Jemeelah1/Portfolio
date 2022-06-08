@@ -48,7 +48,12 @@ function Contact({ name, ...props }) {
             <Button variant="primary" onClick={toggleShow} className="me-2">
               View Socials
             </Button>
-            <Offcanvas show={show} onHide={handleClose} placement="end">
+            <Offcanvas
+              show={show}
+              onHide={handleClose}
+              placement="end"
+              style={{ fontFamily: "Poppins" }}
+            >
               <OffcanvasHeader closeButton>
                 <OffcanvasTitle>Connect with me</OffcanvasTitle>
               </OffcanvasHeader>
