@@ -46,7 +46,7 @@ function Contact({ name, ...props }) {
               find
             </p>
             <Button variant="primary" onClick={toggleShow} className="me-2">
-              Click me
+              View Socials
             </Button>
             <Offcanvas show={show} onHide={handleClose} placement="end">
               <OffcanvasHeader closeButton>
@@ -69,6 +69,7 @@ function Contact({ name, ...props }) {
                         href="https://www.linkedin.com/in/kolawole-ayoola-264118186/"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Connect with me
                       </a>
@@ -81,6 +82,7 @@ function Contact({ name, ...props }) {
                         href="https://www.behance.net/kolawolejosh"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Follow me
                       </a>
@@ -93,6 +95,7 @@ function Contact({ name, ...props }) {
                         href="https://github.com/Kolajosh"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Follow me
                       </a>
@@ -105,6 +108,7 @@ function Contact({ name, ...props }) {
                         href="https://www.instagram.com/josh_kolawole/?hl=en"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Follow me
                       </a>
@@ -117,6 +121,7 @@ function Contact({ name, ...props }) {
                         href="https://twitter.com/josh_kolawole"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Follow me
                       </a>
@@ -129,6 +134,7 @@ function Contact({ name, ...props }) {
                         href="https://wa.me/2349076009850"
                         target="_blank"
                         rel="noreferrer"
+                        style={{ textDecoration: "none" }}
                       >
                         Message me
                       </a>
@@ -136,7 +142,14 @@ function Contact({ name, ...props }) {
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Envelope className="fs-4" />
-                    <span>Mail me</span>
+                    <span>
+                      <a
+                        href="mailto:kjosh344@gmail.com"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Mail me
+                      </a>
+                    </span>
                   </ListGroup.Item>
                 </ListGroup>
               </OffcanvasBody>
