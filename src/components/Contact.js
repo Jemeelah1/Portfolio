@@ -10,6 +10,7 @@ import {
 } from "react-bootstrap";
 import {
   Behance,
+  Download,
   Envelope,
   Github,
   Instagram,
@@ -18,6 +19,7 @@ import {
   Whatsapp,
 } from "react-bootstrap-icons";
 import me from "../img/IMG_3008.jpg";
+import cv from "../downloads/cv.pdf";
 
 function Contact({ name, ...props }) {
   const [show, setShow] = useState(false);
@@ -153,6 +155,19 @@ function Contact({ name, ...props }) {
                         style={{ textDecoration: "none" }}
                       >
                         Mail me
+                      </a>
+                    </span>
+                  </ListGroup.Item>
+                  <ListGroup.Item className="d-flex justify-content-between">
+                    <Download className="fs-4" />
+                    <span>
+                      <a
+                        href={cv}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Download CV
                       </a>
                     </span>
                   </ListGroup.Item>
