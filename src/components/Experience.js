@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Accordion, Card, Col, Container, Row } from "react-bootstrap";
 import "./Experience.css";
 import bs from "../img/bs.png";
 import andela from "../img/andela.png";
 import tri from "../img/tri.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Experience() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
+
   return (
     <>
       <div
@@ -14,20 +21,31 @@ function Experience() {
       >
         <Container>
           {/* Company logo */}
-          <h3 className="mt-3" id="experience-h3">
+          <h3
+            className="mt-3"
+            id="experience-h3"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             experience
           </h3>
           <Row className=" py-5 fs-4 lead align-items-center g-4">
             <Col md="4" lg="7">
-              <h4 id="experience-h4">where i have worked</h4>
+              <h4
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                id="experience-h4"
+              >
+                where i have worked
+              </h4>
             </Col>
-            <Col>
+            <Col data-aos="fade-left" data-aos-duration="1500">
               <img className="img-fluid" id="bs" src={bs} alt=""></img>
             </Col>
-            <Col>
+            <Col data-aos="fade-left" data-aos-duration="1500">
               <img className="img-fluid" id="andela" src={andela} alt=""></img>
             </Col>
-            <Col>
+            <Col data-aos="fade-left" data-aos-duration="1500">
               <img className="img-fluid" id="tri" src={tri} alt=""></img>
             </Col>
           </Row>
@@ -36,6 +54,8 @@ function Experience() {
           <Row xs="1" lg="3" id="card-row" className="g-4 d-none d-md-flex">
             <Col>
               <Card
+                data-aos="fadeIn"
+                data-aos-duration="1500"
                 className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0 "
                 style={{
                   height: "100%",
@@ -64,6 +84,8 @@ function Experience() {
             </Col>
             <Col>
               <Card
+                data-aos="fadeIn"
+                data-aos-duration="1500"
                 className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0"
                 style={{
                   height: "100%",
@@ -96,6 +118,8 @@ function Experience() {
             </Col>
             <Col>
               <Card
+                data-aos="fadeIn"
+                data-aos-duration="1500"
                 className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0"
                 style={{
                   height: "100%",
@@ -130,6 +154,8 @@ function Experience() {
             defaultActiveKey="0"
             className="d-md-none"
             style={{ fontFamily: "Poppins" }}
+            data-aos="fade-right"
+            data-aos-duration="1500"
           >
             <Accordion.Item eventKey="0">
               <Accordion.Header>BlueSense</Accordion.Header>

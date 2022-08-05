@@ -1,3 +1,7 @@
+.tsp {
+  z-index: -1;
+}
+
 .App {
   text-align: center;
 }

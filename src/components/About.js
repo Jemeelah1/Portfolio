@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <div
@@ -14,7 +21,11 @@ function About() {
           <h3 className="mt-3" id="about-h3">
             about
           </h3>
-          <p className="text-center m-md-5 p-md-5 mt-5 fs-5 fw-light">
+          <p
+            className="text-center m-md-5 p-md-5 mt-5 fs-5 fw-light"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             My name is Kolawole Ayoola a Computer Science graduate. As an
             effective Frontend web developer and User Experience designer I have
             experience building beautiful user experiences and coordinating the

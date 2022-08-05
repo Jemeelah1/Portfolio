@@ -1,5 +1,5 @@
-import React from "react";
-import { Button, Card, Container} from "react-bootstrap";
+import React, { useEffect } from "react";
+import { Button, Card, Container } from "react-bootstrap";
 import bs from "../img/bs-card.png";
 import ch from "../img/ch-card.png";
 import cs from "../img/cs-card.png";
@@ -7,8 +7,14 @@ import bssmall from "../img/bs-card-sm.png";
 import chsmall from "../img/ch-card-sm.png";
 import cssmall from "../img/cs-card-sm.png";
 import "./Portfolio.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
   return (
     <>
       <div
@@ -18,6 +24,8 @@ function Portfolio() {
         <Container>
           {/* Company logo */}
           <h3
+            data-aos="fade-right"
+            data-aos-duration="2000"
             className="mt-3"
             id="portfolio-h3"
             style={{ fontFamily: "Poppins" }}
@@ -25,6 +33,8 @@ function Portfolio() {
             portfolio
           </h3>
           <h4
+            data-aos="fade-right"
+            data-aos-duration="1500"
             className="py-5"
             id="portfolio-h4"
             style={{ fontFamily: "Poppins" }}
@@ -33,6 +43,8 @@ function Portfolio() {
           </h4>
 
           <Card
+            data-aos="fade-right"
+            data-aos-duration="1500"
             className="bg-dark text-white d-none d-md-block"
             id="portfolio-cd"
           >
@@ -75,6 +87,8 @@ function Portfolio() {
           </Card>
 
           <Card
+            data-aos="fade-right"
+            data-aos-duration="1500"
             className="bg-dark text-white mt-4 d-none d-md-block"
             id="portfolio-cd"
           >
@@ -107,6 +121,8 @@ function Portfolio() {
           </Card>
 
           <Card
+            data-aos="fade-right"
+            data-aos-duration="1500"
             className="bg-dark text-white mt-4 d-none d-md-block"
             id="portfolio-cd"
           >

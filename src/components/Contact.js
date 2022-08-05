@@ -33,6 +33,8 @@ function Contact({ name, ...props }) {
       >
         <Container>
           <h3
+            data-aos="fade-right"
+            data-aos-duration="2000"
             className="mt-3"
             id="portfolio-h3"
             style={{ fontFamily: "Poppins" }}
@@ -40,14 +42,26 @@ function Contact({ name, ...props }) {
             contact
           </h3>
           <div className="py-5 text-center" style={{ fontFamily: "Poppins" }}>
-            <h4 id="portfolio-h4">lets get in touch</h4>
-            <p className="py-3 fw-light">
+            <h4 id="portfolio-h4" data-aos="fade-up" data-aos-duration="1500">
+              lets get in touch
+            </h4>
+            <p
+              className="py-3 fw-light"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               Have any questions or feedback and want to reach out to me, click
               on the button below
               <br /> and message me on any of the social media platforms you
               find
             </p>
-            <Button variant="primary" onClick={toggleShow} className="me-2">
+            <Button
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              variant="primary"
+              onClick={toggleShow}
+              className="me-2"
+            >
               View Socials
             </Button>
             <Offcanvas
