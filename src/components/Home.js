@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap";
-import kj from "../img/kj.png";
+import Jemmy from "../img/memoji.png";
 import "./Home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +20,7 @@ function Home() {
       <Navbar className="py-2 px-3" sticky="top" expand="md" id="navbar-bg">
         <Container>
           <Navbar.Brand className="fw-bold" href="#home">
-            Kolawole J.
+            Jemila Ibrahim D.
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -55,14 +55,14 @@ function Home() {
               data-aos-duration="1500"
               className="align-items-center text-start "
             >
-              <span className="fw-bold fs-1">designer</span>
+              <span className="fw-bold fs-1">Creative</span>
               <p className="fs-5">
                 I love designing and prototyping beautiful and functional user
                 experiences.
               </p>
             </Col>
             <Col data-aos="fadeIn" data-aos-duration="1500" lg="7">
-              <img className="img-fluid py-3" id="kj-img" src={kj} alt=""></img>
+              <img className="img-fluid py-3" id="kj-img" src={Jemmy} alt=""></img>
             </Col>
             <Col
               data-aos="fade-left"

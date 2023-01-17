@@ -26,16 +26,12 @@ function About() {
             data-aos="fade-right"
             data-aos-duration="3000"
           >
-            My name is Kolawole Ayoola a Computer Science graduate. As an
-            effective Frontend web developer and User Experience designer I have
-            experience building beautiful user experiences and coordinating the
-            development process to ensure that people are satisfied. I've also
-            taken on leadership roles to hone my leadership skills. <br />
-            <br />I have design experience with Adobe tools such as Photoshop,
-            Illustrator, and XD. I also design with Figma and am certain that I
+            A web developer and self-taught UI/UX designer, functioning in the work space for 1+ years now.
+            <br />
+            I make meaningful and delightful digital products, I bring designs to life that create an equilibrium between user needs and business goals.
+            <br /> I also design with Figma and am certain that I
             can get proficient with any design tool. I also have web programming
-            experience, having written code in javascript, reactjs, css, html,
-            wordpress, node, mongodb, and other languages.
+            experience, having written code in javascript, reactjs, css, html, tailwindcss, bootstrap and other languages.
           </p>
         </Container>
       </div>

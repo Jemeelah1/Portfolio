@@ -9,7 +9,6 @@ import {
   ListGroup,
 } from "react-bootstrap";
 import {
-  Behance,
   Download,
   Envelope,
   Github,
@@ -18,8 +17,8 @@ import {
   Twitter,
   Whatsapp,
 } from "react-bootstrap-icons";
-import me from "../img/IMG_3008.jpg";
-import cv from "../downloads/cv.pdf";
+import me from "../img/myImg.jpg";
+import cv from "../downloads/Jemila-Ibrahim.PDF";
 
 function Contact({ name, ...props }) {
   const [show, setShow] = useState(false);
@@ -30,6 +29,7 @@ function Contact({ name, ...props }) {
       <div
         className="bg-img py-5 px-3 align-items-center justify-content-md-center"
         id="contact"
+        // style={{backgroundColor:"#1E1E1E"}}
       >
         <Container>
           <h3
@@ -43,7 +43,7 @@ function Contact({ name, ...props }) {
           </h3>
           <div className="py-5 text-center" style={{ fontFamily: "Poppins" }}>
             <h4 id="portfolio-h4" data-aos="fade-up" data-aos-duration="1500">
-              lets get in touch
+              let's get in touch
             </h4>
             <p
               className="py-3 fw-light"
@@ -81,13 +81,13 @@ function Contact({ name, ...props }) {
                   alt=""
                   style={{ borderRadius: "16px" }}
                 ></img>
-                <h5 className="py-3">Kolawole Ayoola</h5>
+                <h5 className="py-3">Jemila Ibrahim D.</h5>
                 <ListGroup variant="flush">
                   <ListGroup.Item className="d-flex justify-content-between">
                     <Linkedin className="fs-4" />
                     <span>
                       <a
-                        href="https://www.linkedin.com/in/kolawole-ayoola-264118186/"
+                        href="https://www.linkedin.com/in/jemila-ibrahim-dotto/"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: "none" }}
@@ -97,23 +97,10 @@ function Contact({ name, ...props }) {
                     </span>
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex justify-content-between">
-                    <Behance className="fs-4" />
-                    <span>
-                      <a
-                        href="https://www.behance.net/kolawolejosh"
-                        target="_blank"
-                        rel="noreferrer"
-                        style={{ textDecoration: "none" }}
-                      >
-                        Follow me
-                      </a>
-                    </span>
-                  </ListGroup.Item>
-                  <ListGroup.Item className="d-flex justify-content-between">
                     <Github className="fs-4" />
                     <span>
                       <a
-                        href="https://github.com/Kolajosh"
+                        href="https://github.com/Jemeelah1"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: "none" }}
@@ -126,7 +113,7 @@ function Contact({ name, ...props }) {
                     <Instagram className="fs-4" />
                     <span>
                       <a
-                        href="https://www.instagram.com/josh_kolawole/?hl=en"
+                        href="https://www.instagram.com/jemeelah1/"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: "none" }}
@@ -139,7 +126,7 @@ function Contact({ name, ...props }) {
                     <Twitter className="fs-4" />
                     <span>
                       <a
-                        href="https://twitter.com/josh_kolawole"
+                        href="https://twitter.com/Jemeelah_1"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: "none" }}
@@ -152,7 +139,7 @@ function Contact({ name, ...props }) {
                     <Whatsapp className="fs-4" />
                     <span>
                       <a
-                        href="https://wa.me/2349076009850"
+                        href="https://wa.me/2347030168578"
                         target="_blank"
                         rel="noreferrer"
                         style={{ textDecoration: "none" }}
@@ -165,7 +152,7 @@ function Contact({ name, ...props }) {
                     <Envelope className="fs-4" />
                     <span>
                       <a
-                        href="mailto:kjosh344@gmail.com"
+                        href="mailto:jemiladotto@gmail.com"
                         style={{ textDecoration: "none" }}
                       >
                         Mail me

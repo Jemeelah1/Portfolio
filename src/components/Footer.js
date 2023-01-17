@@ -36,7 +36,7 @@ function Footer() {
               contact
             </Nav.Link>
           </Nav>
-          <p className="text-center pt-3">Built by Kolawole Ayoola</p>
+          <p className="text-center pt-3">Built by Jemila Ibrahim</p>
         </Container>
       </div>
     </>

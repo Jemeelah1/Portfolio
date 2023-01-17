@@ -50,14 +50,14 @@ function Portfolio() {
           >
             <Card.Img src={bs} alt="Card image" id="portfolio-img" />
             <Card.ImgOverlay className="p-3 m-3 p-lg-3 m-lg-3">
-              <Card.Title className="fs-2">BlueSense</Card.Title>
+              <Card.Title className="fs-2">Study Press</Card.Title>
               <Card.Text className="fs-5 lead d-none d-lg-block">
-                A website for a business consulting organization that displays
-                services provided, <br />a blog part for weekly updates, and a
-                case study section. Built with ReactJs
+                A website for a tech tutoring organization that displays
+                 tech services provided, <br />a section part for tutors, courses, and a
+                gallery section. Built with JavaScript, Bootstrap.
               </Card.Text>
               <Button
-                href="https://www.bluesense.co"
+                href="https://study-press.netlify.app/"
                 target="_blank"
                 variant="light"
                 size="md"
@@ -66,22 +66,13 @@ function Portfolio() {
                 View Live
               </Button>
               <Button
-                href="https://github.com/Kolajosh/BlueSense"
+                href="https://github.com/Jemeelah1/BootstrapAssignment"
                 target="_blank"
                 variant="light"
                 className="mx-3 mt-3"
                 size="md"
               >
                 View Source Code
-              </Button>
-              <Button
-                href="https://www.behance.net/gallery/134881851/BlueSense-Website-UI-Design"
-                target="_blank"
-                variant="light"
-                size="md"
-                className="mt-3"
-              >
-                View UI Design
               </Button>
             </Card.ImgOverlay>
           </Card>
@@ -94,13 +85,12 @@ function Portfolio() {
           >
             <Card.Img src={cs} alt="Card image" id="portfolio-img" />
             <Card.ImgOverlay className="p-3 m-3 p-lg-3 m-lg-3">
-              <Card.Title className="fs-2">Chrisason Fire</Card.Title>
+              <Card.Title className="fs-2">Registration Form</Card.Title>
               <Card.Text className="fs-5 lead d-none d-lg-block">
-                A website for a fire consulting organization that displays
-                services provided, and products. Built with ReactJs.
+                A website that shows a registration form page. Built with HTML and CSS.
               </Card.Text>
               <Button
-                href="https://www.chrisasonfire.com"
+                href="https://wtf-registration-form.netlify.app"
                 target="_blank"
                 variant="light"
                 size="md"
@@ -109,7 +99,7 @@ function Portfolio() {
                 View Live
               </Button>
               <Button
-                href="https://github.com/Kolajosh/chrisason-fire"
+                href="https://github.com/Jemeelah1/Registration-Form_WTF"
                 target="_blank"
                 variant="light"
                 className="mx-3 mt-3"

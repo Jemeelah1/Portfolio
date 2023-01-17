@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Accordion, Card, Col, Container, Row } from "react-bootstrap";
 import "./Experience.css";
-import bs from "../img/bs.png";
-import andela from "../img/andela.png";
-import tri from "../img/tri.png";
+import alat from "../img/alat.png";
+import alx from "../img/alx.png";
+import purple from "../img/purpleAcademy.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -36,17 +36,17 @@ function Experience() {
                 data-aos-duration="1500"
                 id="experience-h4"
               >
-                where i have worked
+                where i have worked and trained
               </h4>
             </Col>
             <Col data-aos="fade-left" data-aos-duration="1500">
-              <img className="img-fluid" id="bs" src={bs} alt=""></img>
+              <img className="img-fluid" id="bs" src={alat} alt=""></img>
             </Col>
             <Col data-aos="fade-left" data-aos-duration="1500">
-              <img className="img-fluid" id="andela" src={andela} alt=""></img>
+              <img className="img-fluid" id="andela" src={alx} alt=""></img>
             </Col>
             <Col data-aos="fade-left" data-aos-duration="1500">
-              <img className="img-fluid" id="tri" src={tri} alt=""></img>
+              <img className="img-fluid" id="tri" src={purple} alt=""></img>
             </Col>
           </Row>
 
@@ -66,10 +66,10 @@ function Experience() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title className="pb-3 fw-normal">BlueSense</Card.Title>
+                  <Card.Title className="pb-3 fw-normal">ALAT</Card.Title>
                   <Card.Subtitle className="fw-light pb-3">
-                    Web Develoment intern & Business Development intern.
-                    <br /> June 2021 - May 2022
+                    Front-End Developer (Web).
+                    <br /> Febuary 2022 - Present
                   </Card.Subtitle>
                   <Card.Text className="py-3 fw-light">
                     Worked with the research team to produced detailed market
@@ -96,7 +96,7 @@ function Experience() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title className="pb-3 fw-normal">Andela</Card.Title>
+                  <Card.Title className="pb-3 fw-normal">alx</Card.Title>
                   <Card.Subtitle className="fw-light pb-3">
                     Program Assistant.
                     <br /> September 2020 - September 2021
