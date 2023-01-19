@@ -29,7 +29,6 @@ function Contact({ name, ...props }) {
       <div
         className="bg-img py-5 px-3 align-items-center justify-content-md-center"
         id="contact"
-        // style={{backgroundColor:"#1E1E1E"}}
       >
         <Container>
           <h3

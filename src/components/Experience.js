@@ -4,6 +4,7 @@ import "./Experience.css";
 import alat from "../img/alat.png";
 import alx from "../img/alx.png";
 import purple from "../img/purpleAcademy.png";
+import wtf from "../img/wtf.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -42,6 +43,9 @@ function Experience() {
             <Col data-aos="fade-left" data-aos-duration="1500">
               <img className="img-fluid" id="bs" src={alat} alt=""></img>
             </Col>
+            <Col data-aos="fade-left" data-aos-duration="1400">
+              <img className="img-fluid" id="andela" src={wtf} alt=""></img>
+            </Col>
             <Col data-aos="fade-left" data-aos-duration="1500">
               <img className="img-fluid" id="andela" src={alx} alt=""></img>
             </Col>
@@ -72,12 +76,10 @@ function Experience() {
                     <br /> Febuary 2022 - Present
                   </Card.Subtitle>
                   <Card.Text className="py-3 fw-light">
-                    Worked with the research team to produced detailed market
-                    and user research for a fintech startup - hashapp.
+                     Currently Working with a squad (team) of developers to produced detailed products that are user friendly for the company.
                     <br />
                     <br />
-                    Designed compelling user experience for the company site and
-                    partner sites, developed it using ReactJs, node, css.
+                    Designed compelling user experiences for the company, developed using ReactJs, node, Tailwindcss and other languages.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -96,22 +98,49 @@ function Experience() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title className="pb-3 fw-normal">alx</Card.Title>
+                  <Card.Title className="pb-3 fw-normal">WomenTechSters Fellowship</Card.Title>
                   <Card.Subtitle className="fw-light pb-3">
-                    Program Assistant.
-                    <br /> September 2020 - September 2021
+                    Front-End Developer
+                    <br /> July 2022 - March 2023
                   </Card.Subtitle>
                   <Card.Text className="py-3 fw-light">
-                    Coordinate a learning community of 3.5k developers who
+                    A learning community of women developers who
                     possessed varying skill levels and competencies.
                     <br />
                     <br />
-                    Coordinating and supporting learners towards the submission
-                    of 50+ technical projects.
+                    Designed projects in teams and also personal projects, developed using ReactJs, javascript, node, Tailwindcss, html and css.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card
+                data-aos="fadeIn"
+                data-aos-duration="1500"
+                className="text-center align-items-center py-3 py-lg-5 px-5 px-lg-0"
+                style={{
+                  height: "100%",
+                  background: "#ffffffa1",
+                  borderRadius: "16px",
+                  border: "none",
+                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.10)",
+                }}
+              >
+                <Card.Body>
+                  <Card.Title className="pb-3 fw-normal">ALX</Card.Title>
+                  <Card.Subtitle className="fw-light pb-3">
+                    Full-Stack Developer.
+                    <br /> March 2022 - Febuary 2023
+                  </Card.Subtitle>
+                  <Card.Text className="py-3 fw-light">
+                    A learning community of  over 3.5k developers who
+                    possessed varying skill levels and competencies.
                     <br />
                     <br />
-                    Managing over 4 Azure certification prep sessions &
-                    Facilitating the mentor's support structure.
+                    ALX gives daily tasks and projects to guide my learning progress and to gain mastery.
+                    <br />
+                    <br />
+                    Designed personal projects and team projects. Developed using javascript, C, Shell, Python, html and css.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -131,20 +160,18 @@ function Experience() {
               >
                 <Card.Body>
                   <Card.Title className="pb-3 fw-normal">
-                    Trivest Technologies
+                    Purple Academy
                   </Card.Title>
                   <Card.Subtitle className="fw-light pb-3">
-                    Network Technician
-                    <br /> July 2019 - December 2019
+                    Graduate Trainee (BIT)
+                    <br /> October 2021 - January 2022
                   </Card.Subtitle>
                   <Card.Text className="py-3 fw-light">
-                    Installation & configuration of wireless network devices,
-                    and also carrying out periodic maintenance on them.
+                    A training school for developers who
+                    possessed varying skill levels and competencies.
                     <br />
                     <br />
-                    Editing 2D blueprint of various company structures using
-                    AutoCAD to plan the best and shortest path routes engineers
-                    can use to run wires and install control centers.
+                    Designed personal projects and a final project (Multiple-Transfer) with a team of developers, developed   using ReactJs, node, Bootstrap and css.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -158,59 +185,53 @@ function Experience() {
             data-aos-duration="1500"
           >
             <Accordion.Item eventKey="0">
-              <Accordion.Header>BlueSense</Accordion.Header>
+              <Accordion.Header>ALAT</Accordion.Header>
               <Accordion.Body className="py-4">
                 <span className="fw-bold">
-                  Web Develoment intern & Business Development intern.
-                  <br /> June 2021 - May 2022
+                  Front-End Developer (Web).
+                  <br /> Febuary 2022 - Present
                 </span>
                 <br />
                 <br />
-                Worked with the research team to produced detailed market and
-                user research for a fintech startup - hashapp.
+                Currently Working with a squad (team) of developers to produced detailed products that are user friendly for the company.
                 <br />
                 <br />
-                Designed compelling user experience for the company site and
-                partner sites, developed it using ReactJs, node, css.
+                Designed compelling user experiences for the company, developed using ReactJs, node, Tailwindcss and other languages.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-              <Accordion.Header>Andela</Accordion.Header>
+              <Accordion.Header>WomenTechSters Fellowship</Accordion.Header>
               <Accordion.Body className="py-4">
                 <span className="fw-bold">
-                  Program Assistant.
-                  <br /> September 2020 - September 2021
+                  Front-End Developer
+                  <br /> July 2022 - March 2023
                 </span>
                 <br />
                 <br />
-                Coordinate a learning community of 3.5k developers who possessed
-                varying skill levels and competencies.
+                A learning community of women developers who
+                possessed varying skill levels and competencies.
                 <br />
                 <br />
-                Coordinating and supporting learners towards the submission of
-                50+ technical projects.
-                <br />
-                <br />
-                Managing over 4 Azure certification prep sessions & Facilitating
-                the mentor's support structure.
+                Designed projects in teams and also personal projects, developed using ReactJs, javascript, node, Tailwindcss, html and css.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
-              <Accordion.Header>Trivest Technologies</Accordion.Header>
+              <Accordion.Header>ALX</Accordion.Header>
               <Accordion.Body className="py-4">
                 <span className="fw-bold">
-                  Network Technician
-                  <br /> July 2019 - December 2019
+                  Full-Stack Developer.
+                  <br /> March 2022 - Febuary 2023
                 </span>
                 <br />
                 <br />
-                Installation & configuration of wireless network devices, and
-                also carrying out periodic maintenance on them.
+                A learning community of  over 3.5k developers who
+                possessed varying skill levels and competencies.
                 <br />
                 <br />
-                Editing 2D blueprint of various company structures using AutoCAD
-                to plan the best and shortest path routes engineers can use to
-                run wires and install control centers.
+                ALX gives daily tasks and projects to guide my learning progress and to gain mastery.
+                <br />
+                <br />
+                Designed personal projects and team projects. Developed using javascript, C, Shell, Python, html and css.
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
